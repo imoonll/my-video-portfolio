@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的视频作品集</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>我的视频作品</h1>
+            <p>展示我的创意与技能</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>关于我</h2>
+            <p>这里可以写一段简短的自我介绍，说明你的专业背景和视频制作方向。</p>
+        </section>
+
+        <section class="video-gallery">
+            <h2>作品展示</h2>
+            <div class="video-grid">
+                <!-- 视频项目1 -->
+                <div class="video-item">
+                    <div class="video-container">
+                        <video controls poster="assets/images/2.jpg">
+                            <source src="assets/videos/1.mp4" type="video/mp4">
+                            您的浏览器不支持视频标签。
+                        </video>
+                    </div>
+                    <h3>项目标题1</h3>
+                    <p>项目描述和使用的技术。</p>
+                </div>
+
+                <!-- 视频项目2 -->
+                <div class="video-item">
+                    <div class="video-container">
+                        <video controls poster="assets/images/thumbnail2.jpg">
+                            <source src="assets/videos/1.mp4" type="video/mp4">
+                            您的浏览器不支持视频标签。
+                        </video>
+                    </div>
+                    <h3>项目标题2</h3>
+                    <p>项目描述和使用的技术。</p>
+                </div>
+
+                <!-- 可以添加更多视频项目 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2>联系我</h2>
+            <div class="social-links">
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2023 你的名字. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
